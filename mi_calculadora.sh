@@ -8,7 +8,6 @@ op=$3
 
 	if [[ $# -ne 3 ]]; then
 		echo "Introduce 3 argumentos num1 num2 s/r/x"
->>>>>>> feature/mi_calculadora_santi
 		exit 1
 	fi
 
@@ -23,7 +22,6 @@ op=$3
 		x)
 			multiplicacion "$num1" "$num2"
 		;;
->>>>>>> feature/mi_calculadora_santi
 		*)
 			echo "Opción no válida introduce s o r"
 		;;
